@@ -30,6 +30,8 @@ def game():
         score += play_round()
         print("Your score is " + str(score))
         keep_playing = input("Would you like to keep playing? y or n... ")
+        if keep_playing != 'y' or keep_playing != 'n':
+            keep_playing = input("Sorry, I'm not sure what you meant. Please type either y or n... ")
 
 
 portdict = {
