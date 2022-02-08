@@ -1,4 +1,11 @@
-import random
+'''
+This is a short command line game 
+to help test knowledge of common ports
+and protocols. Please feel free to copy
+and use this game to help you study!
+
+'''
+import random 
 
 def get_key(val, my_dict):
     for key, value in my_dict.items():
